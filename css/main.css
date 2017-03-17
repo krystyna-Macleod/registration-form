@@ -41,10 +41,47 @@ textarea {
   border-color: #f2f2f2;
 }
 
+.name {
+  display: block;
+}
+
+.age {
+  display: block;
+
+}
+
+.email {
+  display: block;
+}
+
+.phys {
+  display: block;
+}
+
 @media only screen and (min-width: 60em) {
 
   section {
     vertical-align: middle;
+  }
+
+  .name {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .age {
+    display: inline-block;
+    width: 49%;
+  }
+
+  .email {
+    display: inline-block;
+    width: 49%;
+  }
+
+  .phys {
+    display: inline-block;
+    width: 50%;
   }
 
 }
